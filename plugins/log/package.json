@@ -1,0 +1,11 @@
+{
+  "name": "log",
+  "version": "0.0.1",
+  "main": "log.js",
+  "private": true,
+  "plugin": {
+    "provides": [
+      "log"
+    ]
+  }
+}

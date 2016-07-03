@@ -1,0 +1,14 @@
+{
+  "name": "slack",
+  "version": "0.0.1",
+  "main": "slack.js",
+  "private": true,
+  "plugin": {
+    "provides": [
+      "slack"
+    ],
+    "consumes": [
+      "log"
+    ]
+  }
+}

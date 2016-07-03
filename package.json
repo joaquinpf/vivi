@@ -1,0 +1,30 @@
+{
+  "name": "vivi",
+  "description": "Vivi is a highly opinionated Slack bot for personal usage",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "joaquinpf",
+  "repository": "joaquinpf/vivi",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "prepublish": "npm run compile",
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-es2015-node4": "*",
+    "chai": "*",
+    "coveralls": "*",
+    "eslint": "^2.13.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "isparta": "*",
+    "mocha": "*",
+    "sinon": "*"
+  },
+  "dependencies": {
+    "architect": "^0.1.11",
+    "botkit": "^0.2.2"
+  }
+}

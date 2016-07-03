@@ -1,0 +1,12 @@
+{
+  "name": "admin",
+  "version": "0.0.1",
+  "main": "admin.js",
+  "private": true,
+  "plugin": {
+    "consumes": [
+      "slack",
+      "log"
+    ]
+  }
+}

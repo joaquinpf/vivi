@@ -1,0 +1,12 @@
+{
+  "name": "greeter",
+  "version": "0.0.1",
+  "main": "greeter.js",
+  "private": true,
+  "plugin": {
+    "consumes": [
+      "slack",
+      "log"
+    ]
+  }
+}
