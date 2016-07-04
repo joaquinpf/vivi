@@ -1,0 +1,12 @@
+{
+  "name": "utorrent",
+  "version": "0.0.1",
+  "main": "utorrent.js",
+  "private": true,
+  "plugin": {
+    "consumes": [
+      "slack",
+      "log"
+    ]
+  }
+}

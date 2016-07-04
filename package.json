@@ -7,24 +7,24 @@
   "repository": "joaquinpf/vivi",
   "license": "MIT",
   "scripts": {
-    "compile": "babel src --out-dir lib",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "prepublish": "npm run compile",
-    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+    "test": "./node_modules/.bin/isparta cover _mocha"
   },
   "devDependencies": {
-    "babel-cli": "*",
-    "babel-preset-es2015-node4": "*",
     "chai": "*",
     "coveralls": "*",
-    "eslint": "^2.13.0",
+    "eslint": "^2.13.1",
     "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.1",
+    "eslint-plugin-jsx-a11y": "^1.5.3",
+    "eslint-plugin-react": "^5.2.2",
     "isparta": "*",
     "mocha": "*",
     "sinon": "*"
   },
   "dependencies": {
     "architect": "^0.1.11",
-    "botkit": "^0.2.2"
+    "botkit": "^0.2.2",
+    "machinepack-utorrent": "^0.1.1"
   }
 }
